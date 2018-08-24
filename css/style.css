@@ -1,5 +1,5 @@
 body {
-  font-family: monospace, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   line-height: 1.8;
   color: black;
   text-align: center;
@@ -136,7 +136,7 @@ img{
     text-align: left;
   }
 
-.nav-name{
+  .nav-name{
   float: left;
   display: inline-block;
 }
