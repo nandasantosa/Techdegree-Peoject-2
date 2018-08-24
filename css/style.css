@@ -1,0 +1,195 @@
+body {
+  font-family: monospace, sans-serif;
+  line-height: 1.8;
+  color: black;
+  text-align: center;
+}
+
+h1{
+  font-size: 1.5em;
+}
+
+h2{
+  font-size: 1em;
+}
+
+h2,
+p{
+  color: gray;
+}
+
+h3{
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+h4{
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+h5{
+  font-family: monospace;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+ul{
+  list-style-type: none;
+  display: inline-block;
+}
+
+img{
+  max-width: 100%;
+  padding: 2.5em 0 .5em;
+}
+
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1em 0 2.5em;
+  }
+
+.name{
+    text-transform: uppercase;
+  }
+
+.contact{
+  text-align: center;
+  display: block;
+  background: #FFFDD0;
+  padding-top: 3em;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-nav li a{
+  text-decoration: none;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-right: 10px;
+  display: inline;
+  }
+
+.main-nav li{
+  list-style: none;
+  display: inline;
+}
+
+.main-nav a{
+  padding: 10px 15px;
+  display: block;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main-nav a:hover{
+  color: grey;
+}
+
+.bottom-nav{
+  margin: 0 auto;
+  width: 90%;
+}
+
+/* Layout  Containers*/
+
+
+/* Media Query */
+@media (min-width: 768px) {
+
+  .main-nav{
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .profile{
+    padding-top: 3em;
+  }
+
+  .media{
+    width: 40%;
+    float: left;
+    padding: 1em;
+  }
+
+  .profile-pic{
+    float: right;
+    width: 35%;
+    padding: 0;
+  }
+
+  .intro{
+    float: left;
+    width: 60%;
+    margin: 0;
+    padding: 0 1em;
+    text-align: left;
+  }
+
+.nav-name{
+  float: left;
+  display: inline-block;
+}
+
+  .footer-nav{
+    font-size: 1em;
+    text-decoration-color: black;
+    display: inline;
+    float: right;
+  }
+
+  .footer-nav li {
+    list-style: none;
+    display: inline;
+  }
+
+  .footer-nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .footer-nav li a{
+    text-decoration: none;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 10px;
+    display: inline;
+    }
+
+  .footer-nav a:hover{
+    color: grey;
+  }
+}
+
+@media (min-width: 1024px){
+
+  .name{
+    float: left;
+    margin: 0 auto;
+  }
+
+  .main-nav {
+    float: right;
+  }
+
+  .media{
+    width: 29.5%;
+    float: left;
+    padding: 1em;
+  }
+}
