@@ -38,7 +38,6 @@ h5{
 
 ul{
   list-style-type: none;
-  display: inline-block;
 }
 
 img{
@@ -75,7 +74,7 @@ img{
   margin-top: 6px;
   margin-bottom: 6px;
   margin-right: 10px;
-  display: inline;
+  display: block;
   }
 
 .main-nav li{
@@ -107,7 +106,7 @@ img{
 /* Media Query */
 @media (min-width: 768px) {
 
-  .main-nav{
+  .main-nav li a{
     display: inline-block;
     margin: 0 auto;
   }
