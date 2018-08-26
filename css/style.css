@@ -54,6 +54,8 @@ img{
 
 .name{
     text-transform: uppercase;
+    padding-left: 17px;
+    padding-top: 20px;
   }
 
 .contact{
